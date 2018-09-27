@@ -4,7 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test3.java" line="36" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcb10e23-55cf-4071-b249-9394dc60299a" name="Default" comment="" />
+    <list default="true" id="fcb10e23-55cf-4071-b249-9394dc60299a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +55,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
               <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="92">
+                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -163,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/lily/test/Main11.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test797.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test847.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test802.java" />
@@ -214,6 +228,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/lily/Test9_18/Main1.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lily/Test9_18/Main2.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -542,12 +557,12 @@
       <workItem from="1537367882027" duration="2915000" />
       <workItem from="1537411249861" duration="7524000" />
       <workItem from="1537494563789" duration="17951000" />
-      <workItem from="1538014880711" duration="361000" />
+      <workItem from="1538014880711" duration="1246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="607546000" />
+    <option name="totallyTimeSpent" value="608431000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,10 +587,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.78571427" weight="0.2947977" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49253732" visible="true" weight="0.32883316" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49253732" visible="true" weight="0.32883316" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.14179105" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.14179105" />
       <window_info anchor="right" id="Database" order="9" sideWeight="0.49315068" weight="0.32995737" />
       <window_info anchor="right" id="Structure" order="10" sideWeight="0.50645626" side_tool="true" visible="true" weight="0.13006397" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49354374" weight="0.25" />
@@ -2400,13 +2415,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lily/Test9_16/Main3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lily/Test9_16/Test9_16.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2765,6 +2773,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
