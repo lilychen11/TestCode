@@ -1,7 +1,6 @@
 package cn.lily.leetcode;
 
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class Test {
     public static int cal(int n) {
@@ -29,7 +28,66 @@ public class Test {
         return res;
     }
 
+    public static int longestSubstring(String s, int k) {
+        int[] map = new int[26];
+        for (int i = 0; i < s.length(); i++) {
+            map[s.charAt(i) - 'a']++;
+        }
+        int length = 0;
+        HashSet<Character> set = new HashSet<>();
+        for (int i = 0; i < map.length; i++) {
+            if (map[i] > 0 && map[i] < k)
+                set.add((char)('a' + i));
+        }
+        int start = 0;
+        int end = start;
+        while (end < s.length()){
+            if (!set.contains(s.charAt(end))){
+                end++;
+            } else {
+                length = Math.max(length, end - start);
+                start = end + 1;
+                end = start;
+            }
+            if (end == s.length()){
+                length = Math.max(length,end - start);
+            }
+        }
+        return length;
+    }
+
+    public static int longestSubstring2(String s, int k) {
+        char[] str = s.toCharArray();
+        return helper(str, 0, s.length(), k);
+    }
+
+    private static int helper(char[] str, int start, int end, int k) {
+        if (end - start < k) return 0;//substring length shorter than k.
+        int[] count = new int[26];
+        for (int i = start; i < end; i++) {
+            int idx = str[i] - 'a';
+            count[idx]++;
+        }
+        for (int i = 0; i < 26; i++) {
+            if (count[i] < k && count[i] > 0) { //count[i]=0 => i+'a' does not exist in the string, skip it.
+                for (int j = start; j < end; j++) {
+                    if (str[j] == i + 'a') {
+                        int left = helper(str, start, j, k);
+                        int right = helper(str, j + 1, end, k);
+                        return Math.max(left, right);
+                    }
+                }
+            }
+        }
+        return end - start;
+    }
+
     public static void main(String[] args) {
-        System.out.println(cal(7));
+        String s = "cccddd";
+        int k = 3;
+        //System.out.println(longestSubstring(s,k));
+
+        System.out.println(longestSubstring(s, k));
+
     }
 }

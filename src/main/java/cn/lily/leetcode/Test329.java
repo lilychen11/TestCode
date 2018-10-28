@@ -45,10 +45,44 @@ public class Test329 {
         max = Math.max(max, pathDown[row + 1][col + 1]);
     }
 
+
+    public static int longestIncreasingPathNew(int[][] matrix){
+        if (matrix == null || matrix.length == 0 ||matrix[0].length ==0){
+            return 0;
+        }
+        int[][] cache = new int[matrix.length][matrix[0].length];
+        int max = 0;
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                int length = findSmallAround(i, j, matrix, cache, Integer.MAX_VALUE);
+                max = Math.max(length, max);
+            }
+        }
+        return max;
+    }
+    private static int findSmallAround(int i, int j, int[][] matrix, int[][] cache, int pre) {
+        if (i < 0 || i >= matrix.length || j < 0 || j >= matrix[0].length || matrix[i][j] >= pre){
+            return 0;
+        }
+        if (cache[i][j] > 0){
+            return cache[i][j];
+        } else {
+            int cur = matrix[i][j];
+            int tempMax = 0;
+            tempMax = Math.max(tempMax, findSmallAround(i + 1, j, matrix, cache, cur));
+            tempMax = Math.max(tempMax, findSmallAround(i, j + 1, matrix, cache, cur));
+            tempMax = Math.max(tempMax, findSmallAround(i - 1, j, matrix, cache, cur));
+            tempMax = Math.max(tempMax, findSmallAround(i, j - 1, matrix, cache, cur));
+            cache[i][j] = ++tempMax;
+            return tempMax;
+        }
+    }
+
     public static void main(String[] args) {
-        int[][] nums = {{9, 9, 4}, {6, 6, 8}, {2, 1, 1}};
+        //int[][] nums = {{9, 9, 4}, {6, 6, 8}, {2, 1, 1}};
+        int[][] nums = {{7, 8, 9}, {9, 7, 6}, {7, 2, 3}};
         //int[][] nums = {{3, 4, 5}, {3, 2, 6}, {2, 2, 1}};
-        System.out.println(longestIncreasingPath(nums));
+        System.out.println(longestIncreasingPathNew(nums));
 
     }
 }

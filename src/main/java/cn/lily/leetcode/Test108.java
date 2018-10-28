@@ -1,6 +1,6 @@
 package cn.lily.leetcode;
 
-public class Tees108 {
+public class Test108 {
     public static TreeNode sortedArrayToBST(int[] nums) {
         if (nums == null || nums.length < 1)
             return null;
