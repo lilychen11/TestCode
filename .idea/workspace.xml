@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcb10e23-55cf-4071-b249-9394dc60299a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lily/Test9_18/MinStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lily/Test9_27/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lily/Test9_27/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test131.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test227.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test230.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test328.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test36.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test378.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Tees108.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test108.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test329.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lily/leetcode/Test329.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -212,7 +200,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="961" />
     <option name="y" value="782" />
     <option name="width" value="403" />
@@ -227,6 +215,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,45 +233,6 @@
               <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
               <item name="helloworld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lily" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lily" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lily" type="462c0819:PsiDirectoryNode" />
-              <item name="Test9_27" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="helloworld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,8 +243,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -540,11 +489,12 @@
       <workItem from="1539225398203" duration="12302000" />
       <workItem from="1539260738503" duration="8472000" />
       <workItem from="1540294883948" duration="1566000" />
+      <workItem from="1540736169352" duration="1187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="661575000" />
+    <option name="totallyTimeSpent" value="662762000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,30 +513,30 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.23987207" side_tool="true" visible="true" weight="0.3297975" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5079957" side_tool="true" visible="true" weight="0.32883316" />
       <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4958904" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7601279" weight="0.29411766" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49253732" weight="0.32883316" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49200428" visible="true" weight="0.32883316" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.08795309" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.1881663" />
       <window_info anchor="right" id="Database" order="9" sideWeight="0.49315068" weight="0.32995737" />
-      <window_info anchor="right" id="Structure" order="10" sideWeight="0.50645626" side_tool="true" visible="true" weight="0.22228146" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.50645626" side_tool="true" visible="true" weight="0.090618335" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49354374" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" sideWeight="0.5021521" side_tool="true" weight="0.13432837" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.44616205" weight="0.3297975" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32995737" />
       <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.35714287" weight="0.18900675" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.32851636" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.35714287" weight="0.18900675" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
